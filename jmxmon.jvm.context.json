@@ -1,0 +1,36 @@
+{
+  "jvmDatas" : {
+    "18878" : {
+      "gcDatas" : {
+        "PS MarkSweep" : {
+          "collectionTime" : 0,
+          "collectionCount" : 0,
+          "memoryUsed" : 0,
+          "unitTimeCollectionCount" : -1
+        },
+        "PS Scavenge" : {
+          "collectionTime" : 28,
+          "collectionCount" : 3,
+          "memoryUsed" : 40960,
+          "unitTimeCollectionCount" : 0
+        }
+      }
+    },
+    "18877" : {
+      "gcDatas" : {
+        "PS MarkSweep" : {
+          "collectionTime" : 14847,
+          "collectionCount" : 203,
+          "memoryUsed" : 0,
+          "unitTimeCollectionCount" : 1
+        },
+        "PS Scavenge" : {
+          "collectionTime" : 20714,
+          "collectionCount" : 3580,
+          "memoryUsed" : 119951176,
+          "unitTimeCollectionCount" : 14
+        }
+      }
+    }
+  }
+}
