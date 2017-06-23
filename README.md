@@ -1,7 +1,8 @@
 # jmxmon
 jmxmon monitor for java tomcat
 
-## jar 
+## 监控使用范围
+### jar 
 更改java程序启动脚本，程序jar包启动的时候，增加参数:   
  -Dcom.sun.management.jmxremote.port=$MONPORT \  
  -Dcom.sun.management.jmxremote.ssl=false \  
@@ -11,8 +12,8 @@ jmxmon monitor for java tomcat
   参数直接加载 java 命令后面  
   $MONPORT 为启用的监控端口  
   默认禁用ssl和认证功能  
-  
-## tomcat
+  
+### tomcat
 在catalina.sh文件Execute The Requested Command行下面增加:
 CATALINA_OPTS="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=$MONPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"  
 
