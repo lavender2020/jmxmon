@@ -1,2 +1,2 @@
 # jmxmon
-jmxmon for java tomcat
+jmxmon monitor for java tomcat
