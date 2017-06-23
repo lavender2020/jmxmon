@@ -49,8 +49,8 @@ hostname=wxyd-ocs-p70-193.hjidc.com  \# monitor host hostname
 负责采集客户端数据，采集间隔1分钟，采集数据保存为jmxmon.jvm.context.json，三次采集并处理后保存到jmxmon.txt  
 
 ### zabbixSender.py  
-zabbixSender.py 被jmxmon-0.0.2-jar-with-dependencies.jar调用并把数据文件jmxmon.txt数据传送到zabbix    
-配置文件中需要更改zabbix proxy地址:  sender = ZabbixSender(u'zabbix-proxy.yeshj.com')   
+zabbixSender.py 被jmxmon-0.0.2-jar-with-dependencies.jar调用并把数据文件jmxmon.txt数据传送到zabbix  
+配置文件中需要更改zabbix proxy地址:  sender = ZabbixSender(u'zabbix-proxy.yeshj.com')     
 
 
 
